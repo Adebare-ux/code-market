@@ -7,17 +7,22 @@ body {
 .header {
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
+}
+.number {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-
 .logo {
-  width: 8%;
+  width: 6%;
 
 }
 
 
 .h2 {
-  color: white;
+  color: black;
   text-align: center;
   margin: 20px 0;
   font-size: 50px;
@@ -101,13 +106,6 @@ body {
   margin: 40px 0;
 }
 
-/* === GLOBAL STYLES === */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: black;
-}
 
 /* === HEADER === */
 .header {
@@ -211,7 +209,7 @@ body {
 }
 
 .socials img {
-  width: 40px;
+  width: 50px;
   margin: 0 10px;
   transition: transform 0.3s ease, box-shadow 0.5s ease;
 }
@@ -222,17 +220,11 @@ body {
 }
 
 /* === GLOBAL STYLES === */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: black;
-}
 
 /* === HEADER === */
 .header {
   background-color: #000000;
-  padding: 5px 10px;
+  padding: 2px 8px;
   position: fixed;
   width: 100%;
   top: 0;
@@ -249,7 +241,7 @@ body {
   max-width: 20%;
 }
 
-/* === HEADING === */
+
 .h2 {
   color: white;
   text-align: center;
@@ -258,20 +250,19 @@ body {
   font-weight: bold;
 }
 
-/* === IMAGE CONTAINER === */
+
 .image-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  flex-wrap: wrap; /* default: wrap for desktop/tablet */
+  flex-wrap: wrap; 
   gap: 15px;
   color: white;
   margin-top: 30px;
   padding: 0 10px;
 }
 
-/* === PRODUCT CARDS === */
 .product-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -403,7 +394,7 @@ body {
   }
 
   .socials img {
-    width: 30px;
+    width: 40px;
   }
 }
 
@@ -433,7 +424,7 @@ body {
   }
 
   .socials img {
-    width: 26px;
+    width: 40px;
     margin: 0 6px;
   }
 }
