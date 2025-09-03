@@ -109,7 +109,7 @@ body {
 
 /* === HEADER === */
 .header {
-  background-color: #000000;
+  background-color: white;
   padding: 5px 10px;
   position: fixed;
   width: 100%;
@@ -223,7 +223,7 @@ body {
 
 /* === HEADER === */
 .header {
-  background-color: #000000;
+  background-color: white;
   padding: 5px 8px;
   position: fixed;
   width: 100%;
